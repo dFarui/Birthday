@@ -13,14 +13,14 @@ var S = {
     } else {
       S.UI.simulate('Hi 甫小姐|祝你|新的一岁|必光芒万丈|始终温暖有光|热烈灿烂|永远都有精力|奔向远方|生日快乐|Happy Birthday');
     }
-    S.Drawing.loop(function () {
+    /*S.Drawing.loop(function () {
             m++;
       S.Shape.render();
       //console.log(m);
       if(m==1500){
         window.location.href="../html/BirthdayCake.html";
       }
-    });
+    });*/
 
   }
 };
