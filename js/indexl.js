@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi 甫小姐|祝你|新的一岁|必光芒万丈|始终温暖有光|热烈灿烂|永远都有精力|奔向远方|生日快乐|Happy Birthday');
+      S.UI.simulate('Hi 小朋友|祝你|新的一岁|必光芒万丈|始终温暖有光|热烈灿烂|永远都有精力|奔向远方|生日快乐|Happy Birthday');
     }
     S.Drawing.loop(function () {
             m++;
